@@ -1,0 +1,18 @@
+meta {
+  name: Put
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://127.0.0.1:8000/todos/686fdaa976af7c18257ae770
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "Updated from Bruno",
+    "completed": true
+  }
+}
